@@ -6,7 +6,7 @@ from io import BytesIO
 import win32clipboard
 
 from ImageLocations import CrossLocation, SearchBarLocation
-from DbConnection import numbers
+# from DbConnection import numbers
 
 # ===================== CONFIG =====================
 WHATSAPP_START_DELAY = 2
@@ -15,13 +15,15 @@ SEND_DELAY = 1
 
 IMAGE_CONFIDENCE = 0.7
 NO_CHAT_IMAGE = "nochats.png"
-ATTACHMENT_IMAGE = "bachpankartLogo.png"
-MESSAGE_FILE = "Message.txt"
+ATTACHMENT_IMAGE = "bachpankart_pamplet.jpeg"
+# MESSAGE_FILE = "Message.txt"
+MESSAGE_FILE = "Msg.txt"
 
 COUNTRY_CODE = "+91"
 CLICK_X, CLICK_Y = 382, 472
 
-CONTACTS = numbers
+# CONTACTS = numbers
+CONTACTS = ["9211864298", "8962589175", "9711520093", "7838070318", "8285315856", "9369242751"]
 
 
 # ===================== GLOBAL STATE =====================
